@@ -1,5 +1,3 @@
-import Head from 'next/head'
-
 export default function Home() {
   return (
     <div className="container">
@@ -54,8 +52,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
+          Powered by <img src="/vercel.svg" alt="Vercel" className="logo" />
         </a>
       </footer>
 
@@ -205,5 +202,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
